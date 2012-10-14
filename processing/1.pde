@@ -1,7 +1,7 @@
 void setup() {
-	final int W = 800;
-	final int H = 600;
-	final int NUM_POINTS = 2000;
+	final int W = 400;
+	final int H = 300;
+	final int NUM_POINTS = 500;
 	final int CLOUD_SIZE = 30;
 
 	size(W, H);
