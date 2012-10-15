@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+	<link href="/100formulae/default.css" rel="stylesheet" type="text/css">
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+	<header>
+		<h1>100 Fomulae</h1>
+		<h2>100 Days of Procedural Design</h2>
+		<p><a href="/100formulae/">&laquo; back</a></p>
+	</header>
+
+	<article>
+		<h1>Day {{ page.day }}: {{ page.date | date_to_string }}</h1>
+		<h2>{{ page.title }}
+		<canvas data-processing-sources="/100formulae/processing/{{ page.day }}.pde"></canvas>
+		{{ content }}
+	</article>
+	<script src="http://cloud.github.com/downloads/processing-js/processing-js/processing-1.4.1.min.js"></script>
+</body>
+</html>
