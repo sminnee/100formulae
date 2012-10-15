@@ -1,0 +1,3 @@
+echo "Open http://localhost:4000/100formulae/"
+echo "-----"
+jekyll --server --base-url /100formulae
