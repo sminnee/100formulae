@@ -14,8 +14,11 @@
 	</header>
 
 	<article>
-		<h1>Day {{ page.day }}: {{ page.date | date_to_string }}</h1>
-		<h2>{{ page.title }}
+		<h2>
+			<span class="right-title">{{ page.title }}</span>
+			Day {{ page.day }}: {{ page.date | date_to_string }}
+		</h2>
+
 		<canvas data-processing-sources="/100formulae/processing/{{ page.day }}.pde"></canvas>
 		{{ content }}
 	</article>

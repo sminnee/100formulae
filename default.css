@@ -3,6 +3,10 @@ html {
 	color: white;
 	font-family: 'Muli', sans-serif;
 }
+body {
+	width: 800px;
+	margin: auto;
+}
 
 canvas {
 	width: 800px;
@@ -12,30 +16,36 @@ canvas {
 }
 
 article {
-	margin: auto;
+/*	margin: auto;
 	width: 800px;
-	padding: 20px;
+	padding: 20px;*/
 }
 
-header h1 {
+header {
 	margin: 0;
+}
+header h1 {
+	margin: 0 0 0 -12px;
 	padding: 0;
 	font-size: 96px;
 	font-weight: bold;
 }
 header h2 {
 	margin: -24px 0 0 0;
-	padding: 0 0 0 12px;
+	padding: 0 ;
 }
 header p {
 	margin-top: 0;
-	padding: 0 0 0 14px;
+	padding: 0 0 0 2px;
 }
 
 h2 {
 	font-size: 24px;
 	margin: 12px 0;
 }
+	h2 .right-title {
+		float: right;
+	}
 
 ul {
 	margin: 0;
