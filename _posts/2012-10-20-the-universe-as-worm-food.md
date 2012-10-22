@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The universe as worm food
+title: The universe as worm food (completed 22nd)
 day: 7
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hitchcock's Paper Planes
+title: Hitchcock's Paper Planes (completed 22nd)
 day: 8
 ---
 
